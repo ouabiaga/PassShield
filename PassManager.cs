@@ -32,7 +32,7 @@ void CreateNewPassword()
     Console.ForegroundColor = ConsoleColor.Green;
     Random random = new Random();
 
-    // Geçerli bir C# karakter dizisi tanımlaması
+
     string chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789@#+-.";
 
     string password = "";

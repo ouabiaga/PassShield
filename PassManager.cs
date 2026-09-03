@@ -1,10 +1,9 @@
 
 using System;
-using System.IO; // Dosya işlemleri için bu kütüphane şarttır
-
+using System.IO;
 void ControlFile()
 {
-    // Dosya yoksa oluşturur, varsa hiçbir şey yapmaz. Çökmeyi engeller.
+   
     if (!File.Exists("passwords.txt"))
     {
         File.WriteAllText("passwords.txt", "=========All Passwords=========" + Environment.NewLine);
